@@ -1,0 +1,266 @@
+{
+    "source": "Images/Sprout Lands/Animals/Chicken/chicken default complete.png",
+    "tamano": 0.6,
+    "direcciones": {
+        "1000": {
+            "idle": {
+                "velocidad": "5",
+                "animacion": [
+                    {
+                        "sx": "243",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "227",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "227",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "227",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "227",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "211",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "195",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "179",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "163",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "147",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    }
+                ]
+            },
+            "walking": {
+                "velocidad": "7",
+                "animacion": [
+                    {
+                        "sx": "243",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "227",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "211",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "195",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "179",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "163",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "147",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "131",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    }
+                ]
+            }
+        },
+        "0001": {
+            "idle": {
+                "velocidad": 0.1,
+                "animacion": []
+            },
+            "walking": {
+                "velocidad": 0.1,
+                "animacion": []
+            }
+        },
+        "0010": {
+            "idle": {
+                "velocidad": "5",
+                "animacion": [
+                    {
+                        "sx": "0",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "16",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "16",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "16",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "16",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "32",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "48",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "64",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "80",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "96",
+                        "sy": "17",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    }
+                ]
+            },
+            "walking": {
+                "velocidad": "7",
+                "animacion": [
+                    {
+                        "sx": "0",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "16",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "32",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "48",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "64",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "80",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "96",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    },
+                    {
+                        "sx": "112",
+                        "sy": "33",
+                        "sAlto": "14",
+                        "sLargo": "14"
+                    }
+                ]
+            }
+        },
+        "0100": {
+            "idle": {
+                "velocidad": 0.1,
+                "animacion": []
+            },
+            "walking": {
+                "velocidad": 0.1,
+                "animacion": []
+            }
+        }
+    }
+}

@@ -1,0 +1,419 @@
+{
+    "source": "Images/Sprout Lands/Tilesets/ground tiles/New tiles/Grass_tiles_v2.png",
+    "spriteFrame": {
+        "sx": "16",
+        "sy": "16",
+        "sAlto": "16",
+        "sLargo": "16"
+    },
+    "direcciones": {
+        "01000110": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11001110": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10001100": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01100111": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00100011": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11111111": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00111011": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10011101": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00011001": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00000010": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00001010": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00001000": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00000100": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00000101": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00000001": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11001100": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01011011": {
+            "spriteFrame": {
+                "sx": "80",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00011100": {
+            "spriteFrame": {
+                "sx": "112",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00010101": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11000101": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11001111": {
+            "spriteFrame": {
+                "sx": "128",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10011110": {
+            "spriteFrame": {
+                "sx": "80",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10001000": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10111101": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10011001": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00111111": {
+            "spriteFrame": {
+                "sx": "128",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00110001": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01100011": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01110111": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01101110": {
+            "spriteFrame": {
+                "sx": "96",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01000010": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00000000": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00011110": {
+            "spriteFrame": {
+                "sx": "128",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11101010": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00110101": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00110011": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11000110": {
+            "spriteFrame": {
+                "sx": "0",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01101111": {
+            "spriteFrame": {
+                "sx": "96",
+                "sy": "64",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01001010": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00001100": {
+            "spriteFrame": {
+                "sx": "112",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00010001": {
+            "spriteFrame": {
+                "sx": "48",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10011011": {
+            "spriteFrame": {
+                "sx": "80",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00011010": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "48",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11111101": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11011110": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "0",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "11011111": {
+            "spriteFrame": {
+                "sx": "80",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01111111": {
+            "spriteFrame": {
+                "sx": "96",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "01111011": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10111011": {
+            "spriteFrame": {
+                "sx": "16",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "00111001": {
+            "spriteFrame": {
+                "sx": "32",
+                "sy": "32",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        },
+        "10111111": {
+            "spriteFrame": {
+                "sx": "80",
+                "sy": "16",
+                "sAlto": "16",
+                "sLargo": "16"
+            }
+        }
+    }
+}

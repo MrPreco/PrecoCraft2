@@ -1,0 +1,38 @@
+#canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+fullImagen {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#resultado {
+    height: 150px;
+    font-size: small;
+    line-height: 15px;
+}
+
+#fullImage {
+    width: 600px;
+}
+
+#inspector {
+    box-shadow: 0px 0px 3px black;
+}
+
+.padded {
+    padding: 10px;
+}
+
+.horizontal {
+    display: flex;
+}
+
+.grupo {
+    box-shadow: 0px 0px 3px black;
+}
+.MenosMargen {
+    margin-left: -50px;
+}

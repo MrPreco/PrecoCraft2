@@ -1,0 +1,7 @@
+{
+    "nombre": "sunFlower",
+    "vida": 0,
+    "largo": 1,
+    "alto": 1,
+    "pasable":true
+}

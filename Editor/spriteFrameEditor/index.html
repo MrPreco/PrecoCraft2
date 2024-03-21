@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Frame Editor</title>
+</head>
+
+<body>
+    <main class="grid padded" >
+        <aside id="inspector" class="padded">
+            <label for="zoom">zoom</label>
+            <input id="zoom" type="range" min="1" max="500" value="100" oninput="cambiarZoom(this.value)">
+            <label for="transparencia">transparencia</label>
+            <input id="transparencia" type="range" min="0" max="1" value="0.5" oninput="cambiarTransparencia(this.value)" step="0.1">
+            <label for="sx">sx</label>
+            <input type="number" id="sx" value="0" oninput="refrescar()">
+            <label for="sy">sy</label>
+            <input type="number" id="sy" value="0" oninput="refrescar()">
+            <label for="sLargo">sLargo</label>
+            <input type="number" id="sLargo" value="50" oninput="refrescar()">
+            <label for="sAlto">sAlto</label>
+            <input type="number" id="sAlto" value="50" oninput="refrescar()">
+            <label for="image">Imagen</label>
+            <input type="file" id="image" accept="image/*" onchange="cargarImagen()">
+            <label for="mascara">Mascara</label>
+            <input type="file" id="mascara" accept="image/*" onchange="cargarMascara()">
+        </aside>
+        <div id="previewGroup">
+            <img id="fullImage" src="">
+            <label id="labelFullIMage" for="fullImage"></label>
+            <img id="fullMascara" src="">
+            <label id="labelFullMascara" for="fullMascara"></label>
+        </div>
+        <canvas id="canvas">
+
+        </canvas>
+        <textarea id="resultado" cols="50"></textarea>
+    </main>
+</body>
+<script src="/Editor/spriteFrameEditor/script.js"></script>
+<link rel="stylesheet" href="Editor/res/Style.css">
+<link rel="stylesheet" href="Editor/res/pico.jade.css">
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "source": "Images/Sprout Lands/Objects/signs.png",
+    "largo": 0.5,
+    "alto": 0.5,
+    "spriteFrame": {
+        "sx": "64",
+        "sy": "16",
+        "sAlto": "15",
+        "sLargo": "15"
+    }
+
+}

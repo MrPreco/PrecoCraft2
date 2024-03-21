@@ -1,0 +1,9 @@
+{
+    "source": "Images/Sprout Lands/Tilesets/Water.png",
+    "spriteFrame": {
+        "sx":0,
+        "sy":0,
+        "sLargo":16,
+        "sAlto":16
+    }
+}

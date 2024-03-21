@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sprite Editor</title>
+</head>
+
+<body>
+    <main class="grid padded">
+        <aside id="inspector" class="padded">
+            <label for="zoom">zoom</label>
+            <input id="zoom" type="range" min="1" max="500" value="100" oninput="cambiarZoom(this.value)">
+            <label for="image">Imagen</label>
+            <input type="file" id="image" accept="image/*" onchange="cargarImagen()">
+            <label for="slargo">sLargo</label>
+            <input type="number" id="sLargo" value="24" oninput="modificarLargo(this.value)">
+            <label for="sAlto">sAlto</label>
+            <input type="number" id="sAlto" value="24" oninput="modificarAlto(this.value)">
+            <details>
+                <summary>
+                    Arriba
+                </summary>
+                <div class="grupo padded">
+                    Idle
+                    <input type="number" value="1" oninput="modificarVelocidadIdle('0001',this.value)">
+                    <ul id="ArribaIdle">
+
+                    </ul>
+                    <div class="horizontal">
+                        <button onclick="agregarIdle('0001')">+</button>
+                        <button>-</button>
+                    </div>
+                </div>
+                Walking
+                <input type="number" value="1" oninput="modificarVelocidadWalking('0001',this.value)">
+                <ul id="ArribaWalking">
+
+                </ul>
+                <ul>
+                    <div class="horizontal">
+                        <button onclick="agregarWalking('0001')">+</button>
+                        <button>-</button>
+                    </div>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    Derecha
+                </summary>
+                <div class="grupo padded">
+                    Idle
+                    <input type="number" value="1" oninput="modificarVelocidadIdle('0010',this.value)">
+                    <ul id="DerechaIdle">
+
+                    </ul>
+                    <div class="horizontal">
+                        <button onclick="agregarIdle('0010')">+</button>
+                        <button>-</button>
+                    </div>
+                </div>
+                Walking
+                <input type="number" value="1" oninput="modificarVelocidadWalking('0010',this.value)">
+                <ul id="DerechaWalking">
+
+                </ul>
+                <ul>
+                    <div class="horizontal">
+                        <button onclick="agregarWalking('0010')">+</button>
+                        <button>-</button>
+                    </div>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    Abajo
+                </summary>
+                <div class="grupo padded">
+                    Idle
+                    <input type="number" value="1" oninput="modificarVelocidadIdle('0100',this.value)">
+                    <ul id="AbajoIdle">
+
+                    </ul>
+                    <div class="horizontal">
+                        <button onclick="agregarIdle('0100')">+</button>
+                        <button>-</button>
+                    </div>
+                </div>
+                Walking
+                <input type="number" value="1" oninput="modificarVelocidadWalking('0100',this.value)">
+                <ul id="AbajoWalking">
+
+                </ul>
+                <ul>
+                    <div class="horizontal">
+                        <button onclick="agregarWalking('0100')">+</button>
+                        <button>-</button>
+                    </div>
+                </ul>
+            </details>
+            <details>
+                <summary>
+                    Izquierda
+                </summary>
+                <div class="grupo padded">
+                    Idle
+                    <input type="number" value="1" oninput="modificarVelocidadIdle('1000',this.value)">
+                    <ul id="IzquierdaIdle">
+
+                    </ul>
+                    <div class="horizontal">
+                        <button onclick="agregarIdle('1000')">+</button>
+                        <button>-</button>
+                    </div>
+                </div>
+                Walking
+                <input type="number" value="1" oninput="modificarVelocidadWalking('1000',this.value)">
+                <ul id="IzquierdaWalking">
+
+                </ul>
+                <ul>
+                    <div class="horizontal">
+                        <button onclick="agregarWalking('1000')">+</button>
+                        <button>-</button>
+                    </div>
+                </ul>
+            </details>
+        </aside>
+        <div id="previewGroup">
+            <img id="fullImage" src="">
+            <label id="labelFullIMage" for="fullImage"></label>
+        </div>
+        <canvas id="canvas">
+
+        </canvas>
+        <textarea id="resultado" cols="50"></textarea>
+    </main>
+
+
+</body>
+
+</html>
+
+<script src="updateHandler.js"></script>
+<script src="Editor/CharacterSpriteEditor/script.js"></script>
+<link rel="stylesheet" href="Editor/res/Style.css">
+<link rel="stylesheet" href="Editor/res/pico.jade.css">
+
+<template id="pos">
+    <li class="horizontal MenosMargen">
+        <canvas name="canvas" width="64" height="64"></canvas>
+        <input type="number" name="sx">
+        <input type="number" name="sy">
+    </li>
+</template>

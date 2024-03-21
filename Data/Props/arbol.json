@@ -1,0 +1,7 @@
+{
+    "nombre": "arbol",
+    "vida": 0,
+    "alto": 1,
+    "largo": 1,
+    "pasable":false
+}

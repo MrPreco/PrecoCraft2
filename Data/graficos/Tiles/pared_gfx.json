@@ -1,0 +1,9 @@
+{
+    "source": "Images/Sprout Lands/Tilesets/Fences.png",
+    "spriteFrame": {
+        "sx":0,
+        "sy":0,
+        "sLargo":32,
+        "sAlto":56
+    }
+}

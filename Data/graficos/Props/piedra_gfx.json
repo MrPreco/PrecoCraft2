@@ -1,0 +1,11 @@
+{
+    "source": "Images/Sprout Lands/Objects/Mushrooms, Flowers, Stones.png",
+    "largo": 0.5,
+    "alto": 0.5,
+    "spriteFrame": {
+        "sx": "65",
+        "sy": "15",
+        "sAlto": "14",
+        "sLargo": "14"
+    }
+}

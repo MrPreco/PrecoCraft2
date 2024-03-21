@@ -1,0 +1,11 @@
+{
+    "source": "Images/Sprout Lands/Objects/Trees, stumps and bushes.png",
+    "largo": 0.8,
+    "alto": 0.8,
+    "spriteFrame": {
+        "sx": "1",
+        "sy": "49",
+        "sAlto": "13",
+        "sLargo": "13"
+    }
+}
